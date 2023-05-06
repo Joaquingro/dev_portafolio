@@ -1,0 +1,13 @@
+.container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    height: 500px;
+    margin-left: 180px;
+    border-radius: 30px;
+    z-index: 1;
+    margin-top: -150px;
+    border: 1px solid gainsboro;
+    height: 700px;
+}

@@ -1,0 +1,13 @@
+.container{
+    background-color: rgba(255, 255, 255);
+    padding-top: 100px;
+}
+.son{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.son img{
+    width: 900px;
+    height: auto;
+}

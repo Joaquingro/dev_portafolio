@@ -1,0 +1,49 @@
+.container{
+    background-color: rgb(202, 131, 0);   
+    height: 500px;
+    width: 450px;
+    z-index: 1;
+
+
+}
+.container2{
+    background-color: rgba(255, 255, 255);
+    height: 500px;
+    width: 920px;
+    z-index: 0;
+    /* border-bottom: 1px solid gainsboro; */
+}
+.father{
+    display: flex;
+    flex-direction: row;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.txt p{
+    font-size: 25px;
+    margin-top: 0;
+    font-weight: bold;
+}
+
+.txt h1{
+    font-size: 35px;
+    color: rgb(202, 131, 0);
+    font-weight: bold;
+   
+}
+
+.image{
+    display: flex;
+    margin-left: 190px;
+    margin-top:-30px;
+}
+.image img{
+    height: 650px;
+}
+.my-atropos {
+   
+  }
