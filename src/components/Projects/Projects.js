@@ -1,5 +1,6 @@
 import style from "../Projects/Projects.module.css";
-import total from "../Images/Total mundo.png";
+import 'animate.css';
+
 export function Projects(){
     return (
         <div className={style.container}>
@@ -9,7 +10,7 @@ export function Projects(){
         
          <div className={style.son1}>
             <div className={style.sonp}>
-                <p>Un proyecto de mi bootcamp soy Henry...</p>
+                <p>Un proyecto de mi bootcamp Soy Henry...</p>
                 <a href="https://elastic-mine-production.up.railway.app/">Visitar</a>
             </div>
         </div>

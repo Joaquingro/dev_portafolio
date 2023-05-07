@@ -1,0 +1,45 @@
+.container{
+    background-color: white;
+    height: 500px;
+}
+
+.son{
+    background-color: white;
+    box-shadow: 0px 0px 25px rgb(182, 182, 182);
+    backdrop-filter: blur(10px);
+    width: 250px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+    border-radius: 20px;
+    z-index: 1;
+    margin-top: -50px;
+    color: rgb(202, 131, 0);
+    padding: 10px;
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.formContainer input{
+    width: 230px;
+}
+
+.formFather{
+    display: flex;
+    flex-direction: row;
+
+}
+.formMessage{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+.formMessage input{
+    height: 200px;
+}

@@ -5,6 +5,7 @@ import { School } from './components/School/School';
 import { Cpu } from './components/Cpu/Cpu';
 import { Formation } from './components/Formation/Formation';
 import { Projects } from './components/Projects/Projects';
+import { Contact } from './components/Contact/Contact';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
        <School path to = "/school"/>
        <Formation/>
        <Projects/>
+       <Contact/>
     </div>
   );
 }
