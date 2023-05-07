@@ -1,18 +1,22 @@
 import style from "../Navigation/Navigation.module.css";
 import 'animate.css';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 
 
 export function Navigation() {
-  return (
-    <div className={style.container}>
-        <div className={style.son}>
-            <a href="#school">Conóceme</a>
+    
+      
+    return (
+    <div className={style.container} >
+        
+        <div className={style.son} >
+            <AnchorLink href="#school">Conóceme</AnchorLink>
         </div>
         <div className={style.son}>
-            <a href="#projects">Proyectos</a>
+            <AnchorLink href="#projects">Proyectos</AnchorLink>
         </div>
         <div className={style.son}>
-            <a href="#contact">Contáctame</a>
+            <AnchorLink href="#contact">Contáctame</AnchorLink>
         </div>
        
         

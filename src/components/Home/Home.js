@@ -3,8 +3,6 @@ import * as React from 'react';
 import style from "../Home/Home.module.css";
 import Joaquin from "../Images/Joaquis.png";
 import 'animate.css';
-import 'atropos/css'
-// import Atropos from 'atropos/react';
 export function Home(){
     return(
     <section className={style.father}>
