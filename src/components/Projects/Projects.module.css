@@ -1,0 +1,75 @@
+.container{
+    background-color: rgb(202, 131, 0);
+    z-index: 0;
+    height: 500px;
+    margin-top: -100px;
+}
+
+.son{
+    display: flex;
+    justify-content: center;
+    padding-top: 190px;
+    color: white;
+}
+
+.son1{
+    background-image: url("../Images/Total\ mundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 400px;
+    height: 200px;
+    margin-left: 50px;
+    border-radius: 20px;
+    position: relative;
+    
+}
+.sonp{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    
+}
+.sonp p{
+    margin-top: 50px;
+    color: rgb(202, 131, 0) ;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.sonp:hover{
+    color: white;
+    background-color: rgb(255, 255, 255, 0.8);
+    border-radius: 20px;
+
+}
+.son1 a{
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid rgb(202, 131, 0);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(202, 131, 0);
+    display: none;
+   
+}
+
+.son1:hover a {
+    display: block;
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+    
+  }
+.son1:hover a:hover{
+    background-color: rgb(202, 131, 0);
+    color: white;
+}
+.son1 p{
+    display: none;
+}
+.son1:hover p{
+    display: block;
+}
+
