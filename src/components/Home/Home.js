@@ -15,9 +15,9 @@ export function Home(){
                 <img  src={Joaquin} alt='Joaquin'/>
             
                 </div>
-    
-            
         </div>
+        
+
         <div className={style.container2}>
             <div className={style.txt} >
                 <h3 className="animate__animated animate__backInLeft animate__slow">¡Hola!</h3>

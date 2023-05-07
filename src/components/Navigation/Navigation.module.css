@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    z-index: 0;
+}
+
+.son a{
+    color: rgb(202, 131, 0);
+    text-decoration: none;
+    padding: 10px;
+    position: relative;
+
+}
+
+.son a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(202, 131, 0);
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .son a:hover::after {
+    transform: scaleX(1);
+    animation: fadeIn 1s;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+.son{
+    display: flex;
+    margin-right: 100px;
+    border-radius: 20px;
+}

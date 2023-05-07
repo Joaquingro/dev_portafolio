@@ -6,16 +6,18 @@ import { Cpu } from './components/Cpu/Cpu';
 import { Formation } from './components/Formation/Formation';
 import { Projects } from './components/Projects/Projects';
 import { Contact } from './components/Contact/Contact';
+import { Navigation } from './components/Navigation/Navigation';
 
 function App() {
   return (
     <div className="App">
+      <Navigation/>
        <Home/>
        <Cpu/>
-       <School path to = "/school"/>
+       <School id = "school"/>
        <Formation/>
-       <Projects/>
-       <Contact/>
+       <Projects id = "projects"/>
+       <Contact id = "contact"/>
     </div>
   );
 }

@@ -1,8 +1,9 @@
 import style from "../School/School.module.css";
 
-export function School() {
+export function School(props) {
+    const {id} = props;
     return (
-    <div className={style.container}>
+    <div id = {id} className={style.container}>
         <div className={style.son}>
             <div className={style.baby}>
                 <h1>Te cuento algo sobre mi...</h1>

@@ -1,9 +1,9 @@
 import style from "../Projects/Projects.module.css";
 import 'animate.css';
 
-export function Projects(){
+export function Projects({id}){
     return (
-        <div className={style.container}>
+        <div id = {id} className={style.container}>
             <div className={style.son}>
                 <h1>Mis proyectos</h1>
             </div>

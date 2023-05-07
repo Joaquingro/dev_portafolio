@@ -3,7 +3,8 @@
     height: 500px;
     width: 450px;
     z-index: 1;
-
+    position: relative;
+    margin-top: -51px;
 
 }
 .container2{

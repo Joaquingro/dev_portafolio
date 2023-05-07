@@ -1,8 +1,8 @@
 import style from "../Contact/Contact.module.css";
 
-export function Contact() {
+export function Contact({id}) {
     return (
-    <div className={style.container}>
+    <div id= {id} className={style.container}>
         <div className={style.son}>
             <h1>Contáctame</h1>
         </div>
