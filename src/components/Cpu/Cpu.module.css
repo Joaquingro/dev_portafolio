@@ -14,7 +14,7 @@
     
 }
 .circles {
-    position: absolute;
+    position: relative;
     top: 0;
     display: flex;
     justify-content: center;
@@ -30,6 +30,7 @@
     border-radius: 50%;
     background-color: rgb(202, 131, 0);
     animation: move 4s infinite linear;
+    left: 40%;
   }
   
   .circle:nth-child(1) {
