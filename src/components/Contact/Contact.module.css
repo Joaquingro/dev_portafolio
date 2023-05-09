@@ -23,23 +23,61 @@
 .formContainer{
     display: flex;
     flex-direction: column;
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-bottom: 25px;
 }
 .formContainer input{
     width: 230px;
+    height: 22px;
 }
 
+.formMessage textarea{
+    height: 100px;
+}
 .formFather{
     display: flex;
     flex-direction: row;
 
 }
 .formMessage{
-    margin-left: 20px;
+    margin-left: 30px;
     display: flex;
     flex-direction: column;
     max-width: 500px;
 }
 .formMessage input{
     height: 200px;
+}
+
+.title{
+    margin-bottom: 50px;
+    color: rgb(202, 131, 0);
+    margin-left: 10px;
+}
+
+.send{
+    padding: 5px;
+    width: 500px;
+    margin-left: 30px;
+    background-color: rgb(202, 131, 0);
+    color: white;
+    margin-top: 2px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+
+.send:hover{
+    background-color: white;
+    color: rgb(202, 131, 0);
+    border: 1px solid rgb(202, 131, 0);
+    animation-duration: 1s;
+    animation-name: fadeIn;
+    cursor: pointer;
+    
+}
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
