@@ -1,35 +1,35 @@
+import React from 'react';
+import { useSpring, animated, useTrail } from 'react-spring';
 
-import { animated} from 'react-spring';
+const Circles = () => {
+  const numCircles = 100; // Número de círculos que deseas generar
 
-export function Circles() {
-  const numCircles = 20; // número de círculos a crear
-  const circles = [];
-
-  // crea un array de círculos
-  for (let i = 0; i < numCircles; i++) {
-    circles.push({
-      x: Math.random() * 100, // posición horizontal aleatoria
-      y: Math.random() * 100, // posición vertical aleatoria
-      size: Math.random() * 30 + 10, // tamaño aleatorio entre 10 y 40
-    });
-  }
+  const circleAnimations = useTrail(numCircles, {
+    from: { left: '-50%', top: '-50%', opacity: 0 },
+    to: { left: '100%', top: '100%', opacity: 1 },
+    config: { duration: 2000 },
+    reset: true,
+    reverse: true,
+    loop: true,
+  });
 
   return (
-    <>
-      {circles.map(({ x, y, size }, i) => (
+    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+      {circleAnimations.map((props, index) => (
         <animated.div
-          key={i}
+          key={index}
           style={{
             position: 'absolute',
-            top: `${y}%`,
-            left: `${x}%`,
-            width: `${size}px`,
-            height: `${size}px`,
+            width: '50px',
+            height: '50px',
             borderRadius: '50%',
             backgroundColor: 'orange',
+            ...props,
           }}
         />
       ))}
-    </>
+    </div>
   );
-}
+};
+
+export default Circles;

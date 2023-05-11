@@ -10,7 +10,7 @@ export function Navigation() {
     <div className={style.container} >
         
         <div className={style.son} >
-            <AnchorLink href="#school">Conóceme</AnchorLink>
+            <AnchorLink href="#school">Acerca de mi</AnchorLink>
         </div>
         <div className={style.son}>
             <AnchorLink href="#projects">Proyectos</AnchorLink>

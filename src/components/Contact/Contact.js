@@ -7,26 +7,27 @@ export function Contact({id}) {
         <div className={style.son}>
             <h1>Contáctame</h1>
         </div>
-        <form>
+        <form action="https://formspree.io/f/xbjewvqa"
+            method="POST">
         <div className = {style.title}>
             <h1>¿Te gusto mi trabajo? ¡Contáctame!</h1>
         </div>
             <div className={style.formFather}>
                 <div className={style.formContainer}>
                     <label htmlFor="name">Nombre</label>
-                    <input type="name"></input>
+                    <input name="name" type="name"></input>
                 </div>
                     <div className={style.formContainer}>
                     <label htmlFor="email">Correo electrónico</label>
-                    <input type="email"></input>
+                    <input name = "email" type="email"></input>
                 </div>  
             </div>
             <div className={style.formMessage}>
                 <label htmlFor="mensaje">Mensaje</label>
-                <textarea type="message"></textarea>
+                <textarea name="message" type="message"></textarea>
             </div>
         
-            <button className={style.send}>Enviar</button>
+            <button type="submit" className={style.send}>Enviar</button>
         </form>
     </div>
     );

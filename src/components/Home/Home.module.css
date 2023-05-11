@@ -21,7 +21,7 @@
 .txt{
     display: flex;
     flex-direction: column;
-    margin-left: 300px;
+    margin-left: 200px;
     margin-top: 80px;
 }
 .txt p{
@@ -40,8 +40,8 @@
 .image{
     display: flex;
     margin-left: 190px;
-    margin-top:-30px;
+    margin-top:-20px;
 }
 .image img{
-    height: 650px;
+    height: 520px;
 }
