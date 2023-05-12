@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navigation/>
-       <Home/>
+       <Home id = "home"/>
        <Cpu/>
        <School id = "school"/>
        <Formation/>

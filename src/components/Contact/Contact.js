@@ -1,5 +1,6 @@
 import style from "../Contact/Contact.module.css";
 import 'animate.css';
+import form from "../Images/Form.png";
 
 export function Contact({id}) {
     return (
@@ -7,6 +8,7 @@ export function Contact({id}) {
         <div className={style.son}>
             <h1>Contáctame</h1>
         </div>
+        <div className={style.sonContact}>
         <form action="https://formspree.io/f/xbjewvqa"
             method="POST">
         <div className = {style.title}>
@@ -29,6 +31,10 @@ export function Contact({id}) {
         
             <button type="submit" className={style.send}>Enviar</button>
         </form>
+        <div className={style.broSon}>
+            <img src={form} alt="form"/>
+        </div>
+        </div>
     </div>
     );
 }

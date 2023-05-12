@@ -51,6 +51,7 @@
     animation-duration: 1s;
     animation-name: swing;
     animation-iteration-count: infinite;
+    cursor: pointer;
   }
   
   @keyframes swing {
@@ -106,4 +107,53 @@
   .techItem img {
     max-width: 100%;
     height: auto;
+  }
+
+  @media (max-width: 414px){
+    .container{
+      margin-left: 35px;
+      width: 340px;
+    }
+    .son1 h1{
+      font-size: 25px;
+    }
+    .techItem{
+      width: 60px;
+      height: 60px;
+    }
+    .techItem h2{
+      font-size: 15px;
+      margin-top: -8px;
+    }
+    .techItem img.react {
+      max-width: 100px;
+      margin-top: -15px;
+    }
+    .techItem img.redux {
+      max-width: 85px;
+      height: auto;
+    }
+    .techItem img.css {
+      max-width: 45px;
+      margin-top: 3px;
+    }
+    .techItem img.html {
+      max-width: 60px;
+      margin-top: 4px;
+      
+    }
+    .techItem img.js {
+      max-width: 65px;
+      margin-top: 5px;
+      
+    }
+    .techItem img.node {
+      max-width: 65px;
+      margin-top: 8px;
+      
+    }
+  
+    .techItem img {
+      max-width: 100%;
+    }
   }

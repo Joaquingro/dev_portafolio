@@ -88,3 +88,24 @@
     display: block;
 }
 
+@media (max-width: 414px){
+    .son h1{
+        font-size: 28px;
+    }
+    .son1{
+        width: 250px;
+        height: 125px;
+    }
+    .sonp:hover{
+        width: 250px;
+        height: 125px;
+    }
+    .sonp p{
+        font-size: 15px;
+        margin-top: 17px;
+    }
+    .sonp a{
+        padding: 2px;
+        font-size: 13px;
+    }
+}

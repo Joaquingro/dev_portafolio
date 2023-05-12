@@ -5,8 +5,8 @@
     flex-direction: column;
     z-index: 0;
     padding-bottom: 100px;
-    margin-top: -73px;
-    border-top: 10px solid green;
+    margin-top: -222px;
+    position: relative;
 
 }
 .son{
@@ -30,4 +30,17 @@
     max-width: 800px;
 
 }
-
+@media (max-width: 414px){
+.baby h1{
+    font-size: 25px;    
+    }
+.baby p{
+    font-size: 15px;
+    }
+.baby{
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 400px;
+    
+    }
+}

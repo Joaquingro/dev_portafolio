@@ -2,7 +2,13 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    z-index: 0;
+    z-index: 9999;
+    position: fixed;
+    margin-left: 550px;
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 50px;
 }
 
 .son a{
@@ -38,6 +44,20 @@
   }
 .son{
     display: flex;
-    margin-right: 100px;
+    margin-right: 80px;
     border-radius: 20px;
+    align-items: center;
+}
+
+@media (max-width: 414px){
+    .container{
+      margin-left: 142px;
+      padding: 0;
+      padding-left: 2px;
+    }
+    .son{
+      font-size: 8.5px;
+      padding: 2px;
+      margin-right: 1px;
+    }
 }

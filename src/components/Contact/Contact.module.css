@@ -68,7 +68,15 @@
 
     
 }
-
+.sonContact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.broSon img{
+    width: 450px;
+    height: 450px;
+}
 
 .send:hover{
     background-color: rgb(202, 131, 0);

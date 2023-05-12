@@ -4,7 +4,6 @@
     width: 450px;
     z-index: 1;
     position: relative;
-    margin-top: -51px;
 
 }
 .container2{
@@ -13,6 +12,21 @@
     width: 920px;
     z-index: 0;
     /* border-bottom: 1px solid gainsboro; */
+}
+.container3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 400px;
+    margin-right: 100px;
+    
+}
+.container3 img.linked{
+    width: 74px;
+    height: 52px;
+}
+.container3 img.git{
+    width: 50px;
+    height: 50px;
 }
 .father{
     display: flex;
@@ -39,9 +53,50 @@
 
 .image{
     display: flex;
-    margin-left: 190px;
+    margin-left: 150px;
     margin-top:-20px;
 }
 .image img{
     height: 520px;
 }
+
+ @media (max-width: 414px){
+    .container{
+        height: 500px;
+        width: 140px;
+    }
+    .image img{
+        height: 340px;
+    }
+    .image{
+        margin-left: -50px;
+        margin-top: 160px;
+    }
+    .txt h1{
+        font-size: 15px;
+    }
+    .txt h3{
+        font-size: 10px;
+    }
+    .txt p{
+        font-size: 12px;
+    }
+    .txt{
+        margin-top: 60px;
+        margin-left: 55px;
+        width: 170px;
+    }
+    .container3 img.linked{
+        width: 47px;
+        height: 36px;
+    }
+    .container3 img.git{
+        width: 35px;
+        height: 35px;
+    }
+    .container3{
+        height: 50px;
+        margin-left: -70px;
+        z-index: 9999;
+    }
+ }

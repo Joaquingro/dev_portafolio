@@ -3,14 +3,17 @@ import * as React from 'react';
 import style from "../Home/Home.module.css";
 import Joaquin from "../Images/Joaquis.png";
 import 'animate.css';
-export function Home(){
+import link from "../Images/link.png";
+import git from "../Images/git.png";
+
+export function Home({id}){
     return(
-    <section className={style.father}>
+    <section id = {id} className={style.father}>
         <div className={style.container}>
         
             <div className={style.image}>
             
-                <img  src={Joaquin} alt='Joaquin'/>
+                <img className='animate__animated animate__fadeIn animate_slow' src={Joaquin} alt='Joaquin'/>
             
                 </div>
         </div>
@@ -23,8 +26,17 @@ export function Home(){
                 <p className="animate__animated animate__backInLeft animate__slow" >Ingeniero en Sistemas Computacionales </p>
                 <p className="animate__animated animate__backInRight animate__slow"> & Desarrollador Web Full Stack</p>
             </div>
+            
         </div>
-    
+        <div className={style.container3}>
+                 <a href = "https://www.linkedin.com/in/joaquin-guerrero-728826260/">
+                <img className = {style.linked} src = {link} alt = "LinkedIn"/>
+                </a>
+                <a href = "https://github.com/Joaquingro">
+                <img className={style.git} src = {git} alt = "Github"/>
+                 </a>
+
+            </div>
     </section>
     );
 } 

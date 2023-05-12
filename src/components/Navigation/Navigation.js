@@ -8,7 +8,9 @@ export function Navigation() {
       
     return (
     <div className={style.container} >
-        
+        <div className={style.son} >
+            <AnchorLink href="#home">Inicio</AnchorLink>
+        </div>
         <div className={style.son} >
             <AnchorLink href="#school">Acerca de mi</AnchorLink>
         </div>
