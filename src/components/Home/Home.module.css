@@ -110,14 +110,17 @@
         width: 120px;
     }
     .container2{
-        margin-right: 0;
-        margin-left: 0;
+        display: flex;
+        
     }
     .container3{
-        margin-left: -100px;
-        width: 0;
-        display: flex; 
-        justify-content: flex-start;
+        position: absolute; 
+        top: 400px; 
+        right: 0; 
+        margin: 0; 
+        width: auto; 
+        display: flex;
+        justify-content: flex-end;
     }
     
     .image img{

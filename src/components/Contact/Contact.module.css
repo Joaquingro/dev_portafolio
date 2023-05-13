@@ -119,20 +119,24 @@
         margin-bottom: 50px;
     }
     .formContainer{
-        margin-left: 20px;
+        margin-left: 20px; 
+        margin-left: 0;
+        padding-left: 7px;
     }
-}
-
-@media (max-width: 414px){
     .formFather{
         margin-left: 10px;
     }
+}
+
+
+@media (max-width: 379px){
+    .son{
+        margin-left: 95px;
+    }
     .formMessage{
         margin-left: 10px;
-
     }
-    .formContainer{
-        margin-left: 0;
-        padding-left: 7px;
+    .send{
+        margin-left: 130px;
     }
 }
