@@ -65,7 +65,9 @@
 
 @media (max-width: 379px){
   .container{
-    max-width: 100%;
+    justify-content: flex-start;
+    margin-left: 20px; /* Ajusta este valor según sea necesario */
+    padding-right: 20px;
   }
   .son{
     font-size: 7.5px;
