@@ -90,3 +90,35 @@
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+@media (max-width: 414px){
+    .son{
+        margin-left: 120px;
+        width: 150px;
+        height: 80px;
+        font-size: 12px;
+    }
+    .broSon{
+        display: none;
+    }
+    .title{
+        margin-top: 50px;
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    .formContainer input{
+        width: 150px;
+    }
+    .formMessage{
+        width: 340px;
+        height: 100px;
+        margin-left: 20px;
+    }
+    .send{
+        margin-left: 150px;
+        margin-bottom: 50px;
+    }
+    .formContainer{
+        margin-left: 20px;
+    }
+}

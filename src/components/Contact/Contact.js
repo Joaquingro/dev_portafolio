@@ -1,8 +1,24 @@
 import style from "../Contact/Contact.module.css";
 import 'animate.css';
 import form from "../Images/Form.png";
+import { useState } from "react";
 
 export function Contact({id}) {
+    const [inputs, setInputs] = useState({
+        name: "",
+        email: "",
+        message: "",
+    })
+    const handleInput = (event) => {
+        const value = event.target.value;
+        const name = event.target.name;
+        setInputs({
+            ...inputs,
+            [name]: value,
+        })
+
+    }
+   
     return (
     <div id= {id} className={style.container}>
         <div className={style.son}>
@@ -17,16 +33,16 @@ export function Contact({id}) {
             <div className={style.formFather}>
                 <div className={style.formContainer}>
                     <label htmlFor="name">Nombre</label>
-                    <input name="name" type="name"></input>
+                    <input name="name" type="name" value = {inputs.name} onChange={handleInput}></input>
                 </div>
                     <div className={style.formContainer}>
                     <label htmlFor="email">Correo electrónico</label>
-                    <input name = "email" type="email"></input>
+                    <input name = "email" type="email" value = {inputs.email} onChange={handleInput}></input>
                 </div>  
             </div>
             <div className={style.formMessage}>
                 <label htmlFor="mensaje">Mensaje</label>
-                <textarea name="message" type="message"></textarea>
+                <textarea name="message" type="message" value = {inputs.message} onChange={handleInput}></textarea>
             </div>
         
             <button type="submit" className={style.send}>Enviar</button>
