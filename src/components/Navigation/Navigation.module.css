@@ -64,9 +64,13 @@
 }
 
 @media (max-width: 379px){
+
   .container{
-    max-width: 379px;
-  }
+    justify-content: flex-start;
+    align-items: center;
+    left: 32%;
+  
+  } 
   .son{
     font-size: 7.5px;
   }
