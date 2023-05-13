@@ -17,13 +17,13 @@
 }
 @media (max-width: 414px){
   .son img{
-    width: 500px;
+    width: 390px;
     padding-bottom: 180px;
   }
 }
 @media (max-width: 379px){
   .son img{
-    width: 400px;
+    width: 350px;
     padding-bottom: 228px;
   }
 }

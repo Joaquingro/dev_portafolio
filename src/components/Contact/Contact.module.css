@@ -122,3 +122,17 @@
         margin-left: 20px;
     }
 }
+
+@media (max-width: 414px){
+    .formFather{
+        margin-left: 10px;
+    }
+    .formMessage{
+        margin-left: 10px;
+
+    }
+    .formContainer{
+        margin-left: 0;
+        padding-left: 7px;
+    }
+}

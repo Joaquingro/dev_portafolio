@@ -4,7 +4,8 @@
     justify-content: flex-end;
     z-index: 9999;
     position: fixed;
-    margin-left: 550px;
+    top: 0;
+    right: 0;
     background-color: rgb(255, 255, 255, 0.7);
     padding: 10px;
     border-radius: 20px;
@@ -51,9 +52,9 @@
 
 @media (max-width: 414px){
     .container{
-      margin-left: 142px;
       padding: 0;
       padding-left: 2px;
+      max-width: fit-content;
     }
     .son{
       font-size: 8.5px;
@@ -64,7 +65,7 @@
 
 @media (max-width: 379px){
   .container{
-    margin-left: 130px;
+    max-width: fit-content;
   }
   .son{
     font-size: 7.5px;
