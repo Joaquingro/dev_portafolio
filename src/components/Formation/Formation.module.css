@@ -157,3 +157,9 @@
       max-width: 100%;
     }
   }
+
+  @media (max-width: 379px){
+    .container{
+      margin-left: 7px;
+    }
+  }

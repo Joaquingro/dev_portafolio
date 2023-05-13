@@ -21,6 +21,12 @@
     padding-bottom: 180px;
   }
 }
+@media (max-width: 379px){
+  .son img{
+    width: 400px;
+    padding-bottom: 228px;
+  }
+}
 
 /* .circles { Puede ser loading
     position: relative;
