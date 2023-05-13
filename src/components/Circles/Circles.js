@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSpring, animated, useTrail, useSprings } from 'react-spring';
+import { animated, useSprings } from 'react-spring';
 import style from "../Circles/Circles.module.css";
 export function Circles () {
   const numCircles = 10; // Número de círculos que deseas generar
